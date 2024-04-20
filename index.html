@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Tickets Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .movie {
+            margin: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            color: #333;
+        }
+        form {
+            margin: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Movie Tickets Company</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <button>Sign In</button>
+    </nav>
+</header>
+
+<div id="home" class="movie">
+    <img src="movie1.jpg" alt="Movie 1">
+    <h2>Movie 1</h2>
+    <p>Description of Movie 1 in English.</p>
+</div>
+
+<div id="products" class="movie">
+    <img src="movie2.jpg" alt="Movie 2">
+    <h2>Movie 2</h2>
+    <p>Description of Movie 2 in Spanish.</p>
+</div>
+
+<div class="movie">
+    <img src="movie3.jpg" alt="Movie 3">
+    <h2>Movie 3</h2>
+    <p>Description of Movie 3 in French.</p>
+</div>
+
+<footer>
+    <p>&copy; 2023 Movie Tickets Company</p>
+</footer>
+
+<form>
+    <h3>Contact Us</h3>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    <button>Submit</button>
+</form>
+
+<script>
+    // Add any JavaScript code here if needed
+</script>
+
+</body>
+</html>
